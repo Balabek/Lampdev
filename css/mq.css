@@ -1,0 +1,709 @@
+/*
+
+░░ ░░ ░░ 　 ▒█▀▄▀█ ▒█▀▀█ 　 ░░ ░░ ░░
+▀▀ ▀▀ ▀▀ 　 ▒█▒█▒█ ▒█░▒█ 　 ▀▀ ▀▀ ▀▀
+░░ ░░ ░░ 　 ▒█░░▒█ ░▀▀█▄ 　 ░░ ░░ ░░
+
+*/
+
+/* !!!!!!!!! */
+/* •••••••••• !!!!! I M P O R T A N T !!!!! •••••••••• */
+/* !!!!!!!!! */
+
+@media screen and (max-width: 767px){
+    .lamp_navcollapse {
+        background-color: rgba(0,0,0,0.8);
+        border-color: transparent !important;
+        top: 54px;
+        padding-bottom: 25px;
+        position: relative;
+        z-index: 8000;
+    }
+
+    .lampnav_rite li a {
+        text-align: center;
+    }
+
+    #bgvid {display: none;}
+
+    .video_holder_crooked_2 {
+        background: url("../img/video_freeze.png") no-repeat;
+        background-size: cover;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Navbar ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 991px){
+    .lamplogo {width: 83%;}
+}
+
+@media screen and (max-width: 660px){
+    .navbar-default .navbar-toggle {margin-top: 6%;}
+}
+
+@media screen and (max-width: 603px){
+    .navbar-default .navbar-toggle {margin-top: 7%;}
+}
+
+@media screen and (max-width: 525px){
+    .navbar-default .navbar-toggle {margin-top: 8%;}
+}
+
+@media screen and (max-width: 440px){
+    .navbar-default .navbar-toggle {margin-top: 9%;}
+}
+
+@media screen and (max-width: 375px){
+    .navbar-default .navbar-toggle {margin-top: 10%;}
+}
+
+@media screen and (max-width: 320px){
+    .navbar-default .navbar-toggle {margin-top: 12%;}
+}
+
+
+
+
+
+/* ====== */
+/* ----------------- Header ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 1199px){
+    .video_holder_crooked {height: 875px;}
+}
+
+@media screen and (max-width: 991px){
+    .video_holder_crooked {height: 750px;}
+}
+
+@media screen and (max-width: 790px){
+    .video_holder_crooked {height: 680px;}
+}
+
+@media screen and (max-width: 630px){
+    .video_holder_crooked {margin-top: -25%;}
+}
+
+@media screen and (max-width: 603px){
+    p.intro_txt {width: 80%;}
+    .video_holder_crooked {height: 580px;}
+}
+
+@media screen and (max-width: 500px){
+    .video_holder_crooked {margin-top: -30%;}
+}
+
+@media screen and (max-width: 430px){
+    .video_holder_crooked {margin-top: -35%;}
+    h1.lampwelcome_ttl {font-size: 3.1rem;}
+}
+
+@media screen and (max-width: 360px){
+    .video_holder_crooked {margin-top: -40%;}
+    h1.lampwelcome_ttl {font-size: 2.7rem;}
+    p.intro_txt {width: 98%;}
+    button.intro_cta_btn {margin-top: 5%;}
+}
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- What We Do ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 1199px){
+    .whatwedo_str8 {background-size: 66%; background-position: 280px 136px; height: 1300px;}
+    .wwd_option_info_holder.second-row {margin-top: -6%;}
+    .wwd_option_info_holder {margin-top: -3%;}
+}
+
+@media screen and (max-width: 991px){
+    h4.wwd_option_ttl {font-size: 1.9rem;}
+    p.wwd_option_txt {font-size: 1.5rem;}
+    .whatwedo_str8 {background-size: 61%; background-position: 228px 120px; height: 1050px;}
+
+    .wwd_option_info_holder.second-row {margin-top: -9%;}
+
+}
+
+@media screen and (max-width: 800px){
+    h4.wwd_option_ttl {font-size: 1.7rem;}
+    p.wwd_option_txt {font-size: 1.3rem;}
+
+    .whatwedo_str8 {height: 950px;}
+
+    .wwd_option_info_holder.second-row {margin-top: -7%;}
+}
+
+@media screen and (max-width: 767px){
+    .whatwedo_str8 {background: none;}
+
+    h4.wwd_option_ttl {font-size: 2.2rem;}
+    p.wwd_option_txt {font-size: 1.9rem;}
+
+    .wwd_option_info_holder {margin-top: 3%; left: 6%;}
+    .wwd_option_info_holder.second-row {margin-top: -1%; left: 0;}
+
+    img.optionicon.clean_code {right: -6%;}
+
+    img.optionicon.codecoffee {margin-top: 15%;}
+    .wwd_option_info_holder.second-row.man_hrs {margin-top: 14%;}
+}
+
+@media screen and (max-width: 699px){
+    img.optionicon.coding_icon {margin-top: 55px;}
+    .wwd_option_info_holder.second-row {margin-top: 4%;}
+
+    .wwd_option_info_holder.third-row {margin-top: 6%;}
+
+    img.optionicon.clean_code {margin-top: 55px;}
+    .wwd_option_info_holder {margin-top: 0;}
+
+    img.optionicon.codecoffee {margin-top: 55px;}
+
+    img.optionicon.upwork {margin-top: 55px;}
+    .wwd_option_info_holder.row_forth {margin-top: 8%;}
+
+
+    h4.wwd_option_ttl {font-size: 1.9rem;}
+    p.wwd_option_txt {font-size: 1.4rem;}
+}
+
+
+@media screen and (max-width: 555px){
+    h4.wwd_option_ttl {font-size: 1.6rem;}
+    p.wwd_option_txt {font-size: 1.3rem;}
+
+    .wwd_option_info_holder {margin-top: -3%;}
+
+}
+
+@media screen and (max-width: 445px){
+    h4.wwd_option_ttl {font-size: 1.4rem;}
+    p.wwd_option_txt {font-size: 1.2rem;}
+
+    .wwd_option_info_holder {margin-top: -6%;}
+    .wwd_option_info_holder.second-row {margin-top: 0;}
+    .wwd_option_info_holder.second-row.man_hrs {margin-top: 9%;}
+}
+
+@media screen and (max-width: 400px){
+    img.optionicon.coding_icon {left: 5%; width: 80%;}
+}
+
+@media screen and (max-width: 375px){
+    .wwd_option_info_holder {margin-top: -9%;}
+}
+
+@media screen and (max-width: 360px){
+    img.optionicon {width: 80%;}
+    img.optionicon.codecoffee {width: 80%;}
+    img.optionicon.upwork {width: 80%;}
+}
+
+@media screen and (max-width: 345px){
+    h4.wwd_option_ttl {font-size: 1.2rem;}
+    p.wwd_option_txt {font-size: 1.1rem;}
+
+    .wwd_option_info_holder.second-row.man_hrs {margin-top: 15%;}
+}
+
+@media screen and (max-width: 320px){
+    img.optionicon.coding_icon {width: 94%;}
+    img.optionicon {width: 94%;}
+    img.optionicon.codecoffee {width: 94%; left: 5%;}
+    img.optionicon.upwork {width: 85%;}
+}
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Who We Are ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 767px){
+    .team_memba_holder {margin-bottom: 10%;}
+    img.team_memba {width: 45%;}
+
+    p.team_memba_info {width: 80%; margin: 0 auto;}
+
+    .second_row_holder {left: 0;}
+}
+
+@media screen and (max-width: 555px){
+    .team_memba_holder {margin-bottom: 12%;}
+}
+
+@media screen and (max-width: 420px){
+    img.team_memba {width: 60%;}
+}
+
+@media screen and (max-width: 375px){
+    .team_memba_holder {margin-bottom: 15%;}
+}
+
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Portfolio Slider ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 991px){
+    button.see_all_projects_btn {margin-top: 11%;}
+}
+
+@media screen and (max-width: 800px){
+    button.seeallpjs {margin-top: 14%;}
+}
+
+@media screen and (max-width: 725px){
+    button.see_all_projects_btn {margin-top: 15%;}
+}
+
+@media screen and (max-width: 550px){
+    .portfolio_slider {left: 6%;}
+    button.see_all_projects_btn {margin-top: 22%;}
+    .portfolio_area {padding-bottom: 23%;}
+    .slick-dots {right: 5%;}
+}
+
+@media screen and (max-width: 450px){
+    p.portfolio_info {width: 90%;}
+    button.seeallpjs {margin-top: 20%;}
+}
+
+@media screen and (max-width: 414px){
+    button.see_all_projects_btn {margin-top: 25%;}
+    .slick-dots {right: 6%;}
+    .portfolio_area {padding-bottom: 25%;}
+}
+
+@media screen and (max-width: 375px){
+    button.seeallpjs {margin-top: 24%;}
+}
+
+@media screen and (max-width: 330px){
+    button.seeallpjs {margin-top: 30%;}
+}
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Feedback Slider ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 1199px){
+    .fdbk_info_pack {padding-top: 5px;}
+}
+
+@media screen and (max-width: 991px){
+    img.fdbk_pic {width: 31%;}
+    .fdbk_info_pack {width: 95%;}
+}
+
+@media screen and (max-width: 767px){
+    .fdbk_holder {position: relative; left: 10px;}
+}
+
+@media screen and (max-width: 680px){
+    h3.fdbk_ttl {margin-bottom: 9%;}
+
+    img.fdbk_pic {width: 45%; float: none; margin-bottom: 3%;}
+    .fdbk_info_pack {padding-left: 10px; padding-right: 15px;}
+}
+
+@media screen and (max-width: 400px){
+    h3.fdbk_ttl {margin-bottom: 13%;}
+}
+
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Contacts ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 767px){
+    textarea.lamp_textarea {margin-bottom: 2%;}
+}
+
+@media screen and (max-width: 414px){
+    textarea.lamp_textarea {margin-bottom: 3%;}
+}
+
+@media screen and (max-width: 330px){
+    textarea.lamp_textarea {margin-bottom: 4%;}
+}
+
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Footer ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 1212px){
+    img.footerlogo {top: 5px;}
+}
+
+@media screen and (max-width: 1199px){
+    small.footer_notes {line-height: 4;}
+    ul.lamp_footer_socialz {padding-top: 0;}
+}
+
+@media screen and (max-width: 991px){
+    ul.lamp_footer_socialz {padding-top: 2%;}
+}
+
+@media screen and (max-width: 890px){
+    img.footerlogo {top: 4px;}
+}
+
+@media screen and (max-width: 767px){
+    img.footerlogo {width: 20%; top: 0;}
+    small.footer_notes {line-height: 4.7;}
+
+    .footerinner_left {position: relative; top: 55px;}
+}
+
+@media screen and (max-width: 675px){
+    small.footer_notes {line-height: 3.7;}
+}
+
+@media screen and (max-width: 650px){
+    ul.lamp_footer_socialz {padding-top: 3%;}
+}
+
+@media screen and (max-width: 625px){
+    .footerinner_left {top: 0; left: 15%;}
+    .footerinner_rite {position: relative; right: 33%;}
+}
+
+@media screen and (max-width: 555px){
+    .footerinner_left {left: 10%;}
+    .footerinner_rite {right: 30%;}
+
+    img.footerlogo {width: 24%;}
+    ul.lamp_footer_socialz {padding-top: 6%;}
+}
+
+@media screen and (max-width: 450px){
+    .footerinner_left {left: 3%;}
+    .footerinner_rite {right: 25%;}
+
+    img.footerlogo {width: 28%;}
+}
+
+@media screen and (max-width: 420px){
+    .footerinner_left {left: 0;}
+    .footerinner_rite {right: 24%;}
+
+    small.footer_notes {line-height: 3;}
+}
+
+@media screen and (max-width: 396px){
+    img.footerlogo {width: 22%; top: 3px;}
+    small.footer_notes {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 359px){
+    img.footerlogo {margin-right: 16px;}
+}
+
+@media screen and (max-width: 345px){
+    small.footer_notes {line-height: 2;}
+
+    .footerinner_rite {right: 17%;}
+}
+
+
+
+
+
+
+
+/*
+
+ⓟⓞⓡⓣⓕⓞⓛⓘⓞ ⓜⓠ
+
+*/
+
+
+
+/* ====== */
+/* ----------------- Portfolio Filter ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 1199px){
+    ul.portfo_filtah {left: 15%;}
+}
+
+@media screen and (max-width: 991px){
+    ul.portfo_filtah {left: 5%; margin-top: 5%;}
+}
+
+@media screen and (max-width: 770px){
+    ul.portfo_filtah {left: 3%; margin-bottom: 9%;}
+}
+
+@media screen and (max-width: 699px){
+    ul.portfo_filtah {left: 0;}
+}
+
+@media screen and (max-width: 670px){
+    ul.portfo_filtah li {
+        float: none;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    ul.portfo_filtah li a {
+        display: block;
+        border-radius: 3px;
+        background-color: transparent;
+        border-color: transparent;
+
+        text-align: center;
+        padding-bottom: 3px;
+    }
+
+    ul.portfo_filtah li a:hover, ul.portfo_filtah li a:focus {
+        background-color: #83a900;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 470px){
+    ul.portfo_filtah {margin-top: 10%;}
+}
+
+@media screen and (max-width: 400px){
+    ul.portfo_filtah {margin-top: 14%; margin-bottom: 11%;}
+}
+
+
+
+
+
+
+/* ====== */
+/* ----------------- Portfolio Thumbs ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 991px){
+    .portfo_holder {margin-bottom: 10%;}
+}
+
+@media screen and (max-width: 767px){
+   .isotope {left: 5%;}
+}
+
+@media screen and (max-width: 675px){
+    .portfo_holder {margin-bottom: 16%;}
+}
+
+
+
+
+
+
+
+
+/*
+ⓑⓛⓞⓖ ⓜⓠ
+*/
+
+
+
+
+/* ====== */
+/* ----------------- Blog Bloxx ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 767px){
+    ul.blog_filter_menu {position: relative; right: 3%;}
+    ul.blog_filter_menu li {margin-bottom: 3%;}
+    ul.blog_filter_menu li a {text-align: center;}
+}
+
+@media screen and (max-width: 506px){
+    .blog_dtlz .fa {margin-right: 35px;}
+    .blog_ttl {margin-bottom: 5%;}
+}
+
+@media screen and (max-width: 461px){
+    .blog_dtlz .fa {margin-right: 25px;}
+    .blog_ttl {margin-bottom: 7%;}
+}
+
+@media screen and (max-width: 432px){
+    .blog_dtlz .fa {margin-right: 15px;}
+}
+
+@media screen and (max-width: 404px){
+    .blog_dtlz .fa {clear: both; margin-right: 20px; margin-bottom: 7%;}
+    .blog_filter_holder {padding-top: 11%;}
+}
+
+
+
+
+
+/* ====== */
+/* ----------------- Inner Blog (Comment Form + Sublevel ---------------- */
+/* ====== */
+
+/* >>> LG <<< */
+
+
+
+
+/* >>> SM & XS <<< */
+@media screen and (max-width: 1199px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 9%;}
+}
+
+@media screen and (max-width: 991px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 12%;}
+    form.comment_form {margin-bottom: 15%;}
+}
+
+@media screen and (max-width: 767px){
+    section.blogger_info_and_date_holder p:last-child {width: 85%;}
+    hr.blog_comments_separator {width: 100%;}
+    form.comment_form {margin-bottom: 25%;}
+}
+
+@media screen and (max-width: 630px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 15%;}
+}
+
+@media screen and (max-width: 555px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 18%; width: 77%;}
+}
+
+@media screen and (max-width: 485px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 18%; width: 75%;}
+    form.comment_form {margin-bottom: 40%;}
+}
+
+@media screen and (max-width: 450px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 24%;}
+}
+
+@media screen and (max-width: 375px){
+    form.comment_form {margin-bottom: 45%;}
+}
+
+@media screen and (max-width: 355px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 26%;}
+}
+
+@media screen and (max-width: 330px){
+    section.blogger_info_and_date_holder p:last-child {margin-left: 28%;}
+}
